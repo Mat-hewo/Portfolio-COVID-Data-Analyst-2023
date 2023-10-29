@@ -70,6 +70,7 @@ ORDER BY 1, 2;
 
 
 --Temporary table of Vacinated population
+DROP Table if exists #PercentOfPopulationVacinated
 Create Table #PercentOfPopulationVacinated(
 continent nvarchar(255),
 location nvarchar(255),
@@ -102,5 +103,5 @@ Join Covid_project_PORTFOLIO..CovidVactinations AS vacinations
 	ON deaths.location = vacinations.location
 	and deaths.date = vacinations.date
 WHERE deaths.continent is not null
-order by 2, 3
+order by location, date
 
