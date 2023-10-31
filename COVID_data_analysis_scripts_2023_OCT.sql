@@ -1,4 +1,5 @@
-									--DASHBOARD 1--
+					--DASHBOARD 1--
+-- TABLEU LINK TO DASHBOARD #1: https://public.tableau.com/app/profile/mateusz.adamowicz/viz/Covid-19StatisticsforOctober2023Dashboard/Dashboard
 
 -- Daily COVID-19 statistics: New cases, new deaths, and death percentage
 -- Created View: DeathPercentage_WORD
