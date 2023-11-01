@@ -1,3 +1,6 @@
+--DASHBOARD 2--
+--https://public.tableau.com/app/profile/mateusz.adamowicz/viz/COVID-19EUROPEStatisticsforOctober2023Dashboard/Dashboard1--
+
 -- Total cases and Total deaths PLOT#1
 -- Created View: COVID19_DeathsAndCases
 -- Worksheet in Tableau: COVID19_DeathsAndCases	CUSTOM LINES
